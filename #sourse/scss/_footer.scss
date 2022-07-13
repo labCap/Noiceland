@@ -1,0 +1,149 @@
+.footer {
+    background: $black;
+    color: #fff;
+
+    a {
+        color: #fff;
+    }
+
+    padding: 90px 0;
+
+    // &__inner {}
+
+    &__top {
+        padding-bottom: 60px;
+        border-bottom: 1px solid #4d4d4d;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-end;
+    }
+
+    &__logo {
+        margin: 0 15px 0 0;
+    }
+
+    // &__copyright {}
+
+    &__bottom {
+        padding-top: 60px;
+    }
+
+    &__row {
+        display: flex;
+        flex-wrap: wrap;
+        // justify-content: space-between;
+        margin-bottom: 40px;
+    }
+
+    &__box {
+        margin: 10px 0;
+    }
+
+    &__categories {
+        width: 100%;
+    }
+
+    &__title {
+        margin-bottom: 20px;
+    }
+
+    &__list {
+        margin-right: 114px;
+    }
+
+    &__link {
+        font-size: 14px;
+        line-height: 24px;
+        margin-bottom: 15px;
+        text-transform: capitalize;
+        transition: $transition;
+
+        &:hover {
+            color: $gray-light;
+        }
+
+        &:active {
+            color: $gray-dark;
+        }
+    }
+
+    &__form {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    &__input {
+        flex: 1 1 75%;
+        height: 48px;
+        background: #FFFFFF;
+        border: 1px solid #CCCCCC;
+        border-radius: 0px;
+        padding: 16px 24px;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 12px;
+        letter-spacing: 1px;
+        transition: $transition;
+
+        &:focus {
+            box-shadow: 0px 2px 24px 0px #ffffff73;
+        }
+
+        &::placeholder {
+            font-weight: 400;
+            font-size: 10px;
+            line-height: 12px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            color: $gray-dark;
+        }
+    }
+
+    &__btn {
+        flex: 1 1 25%;
+        height: 48px;
+
+        border: 1px solid transparent;
+        font-size: 10px;
+        line-height: 12px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        background: transparent;
+        color: #FFFFFF;
+        transition: $transition;
+
+        &:hover,
+        &:focus {
+            background: #fff;
+            color: #000;
+        }
+
+        &:active {
+            background: $gray-dark;
+        }
+    }
+
+    // &__info {}
+
+    // &__follw {}
+
+    // &__template {}
+}
+
+.categories {
+
+    &__inner {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-between;
+    }
+}
+
+.form {
+
+    &__inner {
+        display: flex;
+        align-items: center;
+    }
+}

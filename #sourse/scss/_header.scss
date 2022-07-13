@@ -1,0 +1,49 @@
+.header {
+    background: #fff;
+    border-bottom: $bd;
+    position: fixed;
+    width: 100%;
+
+    &__inner {
+        padding: 35px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        @media (max-width:425px) {
+            padding: 15px 0;
+        }
+    }
+
+    &__logo {
+        max-width: 135px;
+
+        img {
+            width: 100%;
+        }
+    }
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+
+    &__link {
+        font-size: 14px;
+        line-height: 24px;
+        margin: 0 0 0 40px;
+        transition: $transition;
+
+        @media (max-width:425px) {
+            margin: 0 0 0 20px;
+        }
+
+        &:hover {
+            color: $gray-dark;
+        }
+
+        &:active {
+            color: $gray-light;
+        }
+    }
+}
