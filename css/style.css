@@ -115,6 +115,11 @@ a {
 .section {
   padding: 90px 0;
 }
+@media (max-width: 425px) {
+  .section {
+    padding: 30px 0;
+  }
+}
 
 .main {
   -webkit-box-flex: 1;
@@ -275,7 +280,7 @@ a {
 }
 @media (max-width: 425px) {
   .intro {
-    padding-top: 10px;
+    padding: 100px 0 30px;
   }
 }
 .intro__item-big {
