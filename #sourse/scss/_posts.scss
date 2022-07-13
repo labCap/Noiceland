@@ -11,7 +11,7 @@
         width: 100%;
         margin-bottom: 30px;
 
-        @media (max-width:768px) {
+        @media (max-width:1200px) {
             text-align: center;
         }
     }
@@ -22,7 +22,7 @@
         flex-wrap: wrap;
         margin: 0 -10px 65px;
 
-        @media (max-width:768px) {
+        @media (max-width:1200px) {
             justify-content: center;
         }
 

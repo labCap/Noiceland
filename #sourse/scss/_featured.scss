@@ -3,7 +3,7 @@
     // &__intro {}
 
     &__info-title {
-        @media (max-width:768px) {
+        @media (max-width:1200px) {
             text-align: center;
         }
     }
@@ -14,7 +14,7 @@
         flex-wrap: wrap;
         margin: 0 -10px;
 
-        @media (max-width:768px) {
+        @media (max-width:1200px) {
             justify-content: center;
         }
     }
