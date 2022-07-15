@@ -30,9 +30,12 @@
 
     &__row {
         display: flex;
-        flex-wrap: wrap;
         // justify-content: space-between;
         margin-bottom: 40px;
+
+        @media (max-width:1024px) {
+            flex-wrap: wrap;
+        }
     }
 
     &__box {

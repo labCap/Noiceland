@@ -484,9 +484,13 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   margin-bottom: 40px;
+}
+@media (max-width: 1024px) {
+  .footer__row {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
 }
 .footer__box {
   margin: 10px 0;
